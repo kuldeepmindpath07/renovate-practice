@@ -3,6 +3,7 @@
   "extends": ["config:recommended"],
   "labels": ["dependencies"],
   "rangeStrategy": "pin",
+  "enabledManagers": ["npm", "dockerfile", "docker-compose"],
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
